@@ -1515,7 +1515,7 @@ p.nominalBounds = new cjs.Rectangle(-2519.1,-161.9,4838.299999999999,319.9);
 		
 		
 		// עבור מוזיקת רקע
-		createjs.Sound.registerSound("/Sounds/compressed smile bensound.mp3", "gameSound");
+		createjs.Sound.registerSound("https://github.com/inbard7/Learn-with-Kitty/tree/main/Sounds", "gameSound");
 		var gameSound;
 		
 		var randomCell; //לבחירת תא רנדומלי מהמערך
