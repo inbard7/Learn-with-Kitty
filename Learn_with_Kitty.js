@@ -1515,7 +1515,7 @@ p.nominalBounds = new cjs.Rectangle(-2519.1,-161.9,4838.299999999999,319.9);
 		
 		
 		// עבור מוזיקת רקע
-		createjs.Sound.registerSound("/Sounds/compressed smile bensound.mp3", "gameSound");
+		createjs.Sound.registerSound("/Sounds/smile.mp3", "gameSound");
 		var gameSound;
 		
 		var randomCell; //לבחירת תא רנדומלי מהמערך
@@ -2515,10 +2515,10 @@ lib.properties = {
 	color: "#8FDCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Learn_with_Kitty_atlas_.png?1612982790892", id:"Learn_with_Kitty_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612982791222", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612982791222", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1612982791222", id:"an.ComboBox"}
+		{src:"images/Learn_with_Kitty_atlas_.png?1612984222675", id:"Learn_with_Kitty_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612984222995", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1612984222995", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1612984222995", id:"an.ComboBox"}
 	],
 	preloads: []
 };
