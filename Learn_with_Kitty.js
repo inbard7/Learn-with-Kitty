@@ -1637,6 +1637,7 @@ p.nominalBounds = new cjs.Rectangle(-2519.1,-161.9,4838.299999999999,319.9);
 		
 		
 		function startGame() {
+			createjs.Sound.stop();
 			gameSound = createjs.Sound.play("gameSound");
 			gameSound.loop = true;
 			soundOn = true;
@@ -2515,10 +2516,10 @@ lib.properties = {
 	color: "#8FDCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Learn_with_Kitty_atlas_.png?1612986485942", id:"Learn_with_Kitty_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612986486289", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612986486289", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1612986486289", id:"an.ComboBox"}
+		{src:"images/Learn_with_Kitty_atlas_.png?1613002526456", id:"Learn_with_Kitty_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1613002526760", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1613002526760", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1613002526760", id:"an.ComboBox"}
 	],
 	preloads: []
 };
