@@ -99,7 +99,7 @@ nav {
 .tirgul {
     position: absolute;
     z-index: 1;
-    bottom: 426px;
+    bottom: 420px;
     right: 190px;
 }
 
@@ -142,12 +142,12 @@ nav {
 .tashpa {
     position: absolute;
     z-index: 1;
-    bottom: 79px;
-    right: 445px;
+    bottom: 115px;
+    right: 456px;
 }
 
 #tashpa {
-    font-size: 35px;
+    font-size: 26px;
     font-family: Calibri;
     color: black;
 }
@@ -158,7 +158,7 @@ nav {
 .faculty {
     position: absolute;
     z-index: 1;
-    bottom: 65px;
+    bottom: 91px;
     right: 376px;
 }
 
@@ -179,12 +179,17 @@ nav {
 .cred {
     position: absolute;
     z-index: 1;
-    bottom: 40px;
-    right: 412px;
+    bottom: 48px;
+    right: 418px;
 }
 
-
-
+.cred2 {
+        position: absolute;
+        z-index: 1;
+        bottom: 22px;
+        right: 421px;
+        font-size: 10px;
+}
 /* תמונה ענבר */
 .inbar {
     position: absolute;
