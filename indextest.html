@@ -1,0 +1,113 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>מתרגלים עם קיטי</title>
+    <meta name="description" content="מתרגלים עם קיטי" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <link rel="icon" href="img/TinyCat.JPG " alt="" />
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src="img/logo.png"/> <!--הלוגו של המשחק שלכם-->
+                <p>מתרגלים עם קיטי</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">X</a>
+            <div id="outer">
+                <img id="ODOT" src="img/ODOT2.png" />
+
+                <div class="tirgul">
+                    <img id="tirgul2" src="img/tirgul2.JPG" />
+                </div>
+
+                <div class="names">
+                    <img id="names" src="img/ifyun.png"/>
+                </div>
+
+
+
+                <div class="text">
+                    <p id="text">
+                        אופיין ופותח במסגרת פרויקט בקורסים: <br>
+                        סביבות לימוד אינטראקטיביות 1 + תכנות אינטראקציה ואנימציה 1
+                        <br>
+                    </p>
+                </div>
+
+                <div class="tashpa">
+                    <p id="tashpa">תשפ"א</p>
+                </div>
+
+                <div class="faculty">
+
+                    <a href="https://www.hit.ac.il/telem/overview" target="_blank" id="faculty">הפקולטה לטכנולוגיות למידה</a>
+                </div>
+
+                <div class="cred">
+
+                    <a href="http://www.bensound.com/" target="_blank" id="cred">Royalty Free Music from Bensound </a>
+
+                </div>
+
+                <div class="inbar">
+                    <img id="inbar" src="img/Inbar.png" />
+                </div>
+
+                <div class="Ilana">
+                    <img id="Ilana" src="img/Ilana.png" />
+                </div>
+
+                <div class="Eva">
+                    <img id="Eva" src="img/Eva2.png" />
+                </div>
+
+                <div class="hitLogo">
+                    <img id="hitLogo" src="img/HITlogo.png" />
+                </div>
+                <div class="kittyLogo">
+                    <img id="kittyLogo" src="img/KittyLogo.png" />
+                </div>
+
+            </div>
+        </div>
+
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">X</a>
+            <img id="ODOT" src="img/Instruct.png" />
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="https://inbard7.github.io/Learn-with-Kitty/Learn_with_Kitty.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
