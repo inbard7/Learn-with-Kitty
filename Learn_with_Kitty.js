@@ -2516,10 +2516,10 @@ lib.properties = {
 	color: "#8FDCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Learn_with_Kitty_atlas_.png?1613002526456", id:"Learn_with_Kitty_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1613002526760", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1613002526760", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1613002526760", id:"an.ComboBox"}
+		{src:"images/Learn_with_Kitty_atlas_.png?1613225623746", id:"Learn_with_Kitty_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1613225624065", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1613225624065", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1613225624065", id:"an.ComboBox"}
 	],
 	preloads: []
 };
